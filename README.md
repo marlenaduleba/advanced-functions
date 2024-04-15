@@ -17,6 +17,6 @@ Implement a higher-order function called repeatFunction that takes a function an
 Implement a recursive function called calculateFactorial that calculates the factorial of a given number. Optimize the function to use tail call optimization to avoid stack overflow for large input numbers.
 Create a recursive function called power that takes a base and an exponent as arguments. The function should calculate the power of the base to the exponent using recursion.
 
-**Task 5: Lazy Evaluation and Generators (*do not use yield)**
+**Task 5: Lazy Evaluation and Generators (do not use yield)**
 Implement a lazy evaluation function called lazyMap that takes an array and a mapping function. The function should return a lazy generator that applies the mapping function to each element of the array one at a time.
 Create a lazy generator function called fibonacciGenerator that generates Fibonacci numbers one at a time using lazy evaluation.
