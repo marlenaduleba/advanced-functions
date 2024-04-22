@@ -1,5 +1,10 @@
+const compose = require("../utils/compose");
+
 const getAverage = (arr) => arr.reduce((acc, val) => acc + val, 0) / arr.length;
-const getAverageGrade = (students) =>
-  getAverage(students.map((student) => getAverage(student.grades)));
+
+const mapGradesToAverages = (students) =>
+  students.map((student) => getAverage(student.grades));
+
+const getAverageGrade = compose(getAverage, mapGradesToAverages);
 
 module.exports = getAverageGrade;

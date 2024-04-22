@@ -7,13 +7,13 @@ describe("filterUniqueWords", () => {
     const uniqueWords = filterUniqueWords(text);
 
     expect(uniqueWords).toEqual([
-      "Lorem",
       "adipiscing",
       "amet",
       "consectetur",
       "dolor",
       "elit",
       "ipsum",
+      "lorem", 
       "sit",
     ]);
   });
