@@ -1,4 +1,4 @@
-## Homework 3: Functions
+## Homework 3: Advanced functions
 
 ### Task 1: Immutability and Pure Functions 
 Implement a pure function called calculateDiscountedPrice that takes an array of products and a discount percentage as arguments. The function should return a new array of products with discounted prices based on the given percentage, without modifying the original products.
